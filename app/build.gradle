@@ -4,6 +4,8 @@
 
 plugins {
     id 'goldenrodservice.java-application-conventions'
+    id "io.freefair.lombok" version "6.6.1"
+    id 'org.springframework.boot' version '3.0.1'
 }
 
 dependencies {
